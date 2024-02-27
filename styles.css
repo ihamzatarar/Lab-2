@@ -1,0 +1,89 @@
+body{
+    background-color:#14bbf1;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+form{
+    text-align: center;
+    background-color:#e6e4e5;
+    margin: 0 auto;
+    width:350px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.nav-button-1{
+    width: 100%;
+    background-color:#14bbf1;
+    max-width: 100px; 
+    box-sizing: border-box;
+    margin: 10px;
+    margin-right: 0px;
+    padding: 10px;
+    border: 2px solid #14bbf1;
+    border-radius: 10px;
+    max-width: 150px; 
+
+    
+}
+.nav-button-2{
+    width: 100%;
+    background-color:#14bbf1;
+    max-width: 100px; 
+    box-sizing: border-box;
+    margin: 1px 1px 1px 1px;
+    margin-left: 0px;
+    padding: 10px;
+    border: 2px solid #14bbf1;
+    border-radius: 10px;
+    max-width: 150px; 
+    margin-left: 0px;
+
+
+    
+}
+.down-button{
+    width: 100%;
+    background-color:#14bbf1;
+    max-width: 300px; 
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #14bbf1;
+    border-radius: 10px;
+}
+input {
+    width: 100%;
+    background-color:#e6e4e5;
+    max-width: 300px; 
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #14bbf1;
+    border-radius: 10px;
+}
+
+.nav-button-1:hover{
+    background-color: green;
+}
+
+.nav-button-2:hover{
+    background-color: green;
+}
+
+.down-button:hover{
+    background-color: green;
+}
+
+a{
+    color: white; /* Change to your desired text color */
+    text-decoration: none; /* Removes the underline */
+}
